@@ -1,0 +1,20 @@
+{
+  "name": "Sandeep Chaurasiya Portfolio",
+  "short_name": "Portfolio",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a1a",
+  "theme_color": "#ff6b6b",
+  "icons": [
+    {
+      "src": "image/Sandeep.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "image/Sandeep.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
