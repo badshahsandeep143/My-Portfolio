@@ -7,7 +7,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json">
 </head>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js')
+      .then(() => console.log("Service Worker Registered"));
+  }
+</script>
 <body>
     <nav>
         <div class="nav-container">
@@ -72,6 +79,10 @@
             </div>
         </div>
     </section>
+
+    <!-- ============================================ -->
+    <!-- ABOUT SECTION -->
+    <!-- ============================================ -->
     <section id="about" class="about">
         <div class="section-container">
             
@@ -126,6 +137,10 @@
             
         </div>
     </section>
+
+    <!-- ============================================ -->
+    <!-- SKILLS SECTION -->
+    <!-- ============================================ -->
     <section id="skills" class="skills">
         <div class="section-container">
             
@@ -194,6 +209,9 @@
         </div>
     </section>
 
+    <!-- ============================================ -->
+    <!-- PROJECTS SECTION -->
+    <!-- ============================================ -->
     <section id="projects" class="projects">
         <div class="section-container">
             
@@ -246,6 +264,10 @@
             
         </div>
     </section>
+
+    <!-- ============================================ -->
+    <!-- CONTACT SECTION -->
+    <!-- ============================================ -->
     <section id="contact" class="contact">
         <div class="section-container">
             
@@ -261,7 +283,7 @@
                         <div class="contact-icon"><i class="fas fa-envelope"></i></div>
                         <div>
                             <h4>Email</h4>
-                            <a href="mailto:sandeepgolu0143@gmail.com?subject=Hello%20Sandeep&body=Hi%20Sandeep,%20I%20want%20to%20connect%20with%20you.">sandeepgolu0143@gmail.com</a>
+                            <a href="mailto:sandeepgolu0143@gmail.com">Sandeepgolu0143@gmail.com</a>
                         </div>
                     </div>
                     
